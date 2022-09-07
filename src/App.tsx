@@ -1,9 +1,12 @@
+import { Controls, Player } from "./containers";
+
 function App() {
   return (
-    <div>
-      <h3>Hello DevSuperior</h3>
-    </div>
+    <>
+    <Player />
+    <Controls />
+    </>
   );
-}
+};
 
 export default App;
